@@ -1,0 +1,33 @@
+{
+	"name": "urlshortener",
+	"version": "1.0.0",
+	"description": "Construindo Encurtador de URL, DIO, Spread Fullstack Developer.",
+	"main": "index.js",
+	"scripts": {
+		"build:watch": "tsc -w",
+		"build": "tsc",
+		"dev": "nodemon ./dist/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Edivan Sousa",
+	"license": "ISC",
+	"dependencies": {
+		"@hasezoey/typegoose": "^5.9.2",
+		"@typescript-eslint/eslint-plugin": "^4.33.0",
+		"@typescript-eslint/parser": "^4.33.0",
+		"cors": "^2.8.5",
+		"eslint": "^7.32.0",
+		"eslit": "^6.0.0",
+		"express": "^4.18.1",
+		"mongoose": "^5.13.14",
+		"nodemon": "^1.3.3",
+		"shortid": "^2.2.16",
+		"tslint": "^6.1.3",
+		"typescript": "^4.7.4"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.13",
+		"@types/mongoose": "^5.11.97",
+		"@types/shortid": "0.0.29"
+	}
+}
